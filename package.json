@@ -7,7 +7,8 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "style": "prettier --write . --ignore-path .gitignore"
+    "style": "prettier --write . --ignore-path .gitignore",
+    "test": "jest"
   },
   "dependencies": {
     "next": "12.1.6",
@@ -15,12 +16,17 @@
     "react-dom": "18.1.0"
   },
   "devDependencies": {
+    "@testing-library/jest-dom": "^5.16.4",
+    "@testing-library/react": "^13.3.0",
     "@types/node": "17.0.38",
     "@types/react": "18.0.10",
     "@types/react-dom": "18.0.5",
     "eslint": "8.16.0",
     "eslint-config-next": "12.1.6",
+    "jest": "^28.1.0",
+    "jest-environment-jsdom": "^28.1.0",
     "prettier": "^2.6.2",
+    "ts-node": "^10.8.0",
     "typescript": "4.7.2"
   }
 }
