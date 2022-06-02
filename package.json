@@ -7,7 +7,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "style": "prettier --write ."
+    "style": "prettier --write . --ignore-path .gitignore"
   },
   "dependencies": {
     "next": "12.1.6",
