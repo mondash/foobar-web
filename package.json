@@ -7,7 +7,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "style": "prettier --write . --ignore-path .gitignore",
+    "style": "prettier --ignore-path .gitignore --write .",
     "test": "jest",
     "types": "tsc"
   },
