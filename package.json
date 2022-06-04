@@ -5,9 +5,10 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
+    "format": "prettier --ignore-path .gitignore --write .",
     "start": "next start",
     "lint": "next lint",
-    "style": "prettier --ignore-path .gitignore --write .",
+    "style": "prettier --ignore-path .gitignore --check .",
     "test": "jest --config ./test/jest.config.ts",
     "types": "tsc"
   },
