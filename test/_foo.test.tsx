@@ -1,6 +1,7 @@
 import React from "react";
 import { render, screen } from "@testing-library/react";
 import userEvent from "@testing-library/user-event";
+import bar from "@/_bar";
 
 const Foo = (): JSX.Element => {
   const [count, setCount] = React.useState(0);
@@ -22,6 +23,10 @@ test("qwerty", async () => {
 });
 
 describe("bar", () => {
+  test("everything", () => {
+    expect(bar()).toBe(42);
+  });
+
   test("fizz", () => {
     expect(true).toBeTruthy();
   });
